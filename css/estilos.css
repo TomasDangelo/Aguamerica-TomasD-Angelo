@@ -234,10 +234,17 @@ grid-template-rows: 15% auto auto 15%;
 .transformacion img {
 width: 500px;
 height: 500px;
+transition: transform 2s;
 }
 
+.transformacion:hover img {
+    transform: translate(100px) scale(1.5);
+}
 
 .transformacion{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5rem;
@@ -246,39 +253,19 @@ height: 500px;
 
     padding: 1rem;
 }
-.slide-fwd-right {
-	-webkit-animation: slide-fwd-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-fwd-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
 
- @-webkit-keyframes slide-fwd-right {
-    0% {
-      -webkit-transform: translateZ(0) translateX(0);
-              transform: translateZ(0) translateX(0);
+
+.footer{
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        grid-area: footer;
+        box-shadow: 0 2px 5px lightslategray;
+        margin-top: 5%;
+    
     }
-    100% {
-      -webkit-transform: translateZ(160px) translateX(100px);
-              transform: translateZ(160px) translateX(100px);
-    }
-  }
-  @keyframes slide-fwd-right {
-    0% {
-      -webkit-transform: translateZ(0) translateX(0);
-              transform: translateZ(0) translateX(0);
-    }
-    100% {
-      -webkit-transform: translateZ(160px) translateX(100px);
-              transform: translateZ(160px) translateX(100px);
-    }
-  }
-  
-
-
-
-
-
-
-
 
 
 /*Inicio media 1024*/
@@ -343,6 +330,7 @@ height: 500px;
         .contact-info p {
             text-align: left;
         }
+
 
     }
        
