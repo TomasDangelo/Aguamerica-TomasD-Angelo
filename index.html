@@ -9,13 +9,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/ffc442aae2.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
     <div id="grid">
 <header class="header">
 
-    <nav class="nav">
+    <a class="header__open" href="#sidebar">
+<i class="header__icono fa-solid fa-bars"></i>
+    </a>
+
+    <nav class="nav" id="sidebar">
         <ul class="nav__lista"> 
             <li class="nav__item">Menú principal</li>
             <li  class="nav__item"> <a href="index.html">Inicio</a> </li>
@@ -29,7 +35,7 @@
 </header>
 
 <section id="primeraseccion">
-    <div>
+    <div class="transformarbidon">
         <img src="images/bidon-manija.jpg" alt="">
     </div>
 </section>
@@ -44,7 +50,8 @@
 <section id="terceraseccion">
 
 <div class="transformacion">
- <img src="images/dispenser-2.jpg" alt=""> 
+ <img src="images/dispenser-2.jpg" alt="dispenser">
+ <img class="vaso" src="images/vaso-termico.jpg" alt=""> 
 </div>
 
 </section>
@@ -53,7 +60,7 @@
 <footer class="footer">
     <nav class="nav">
         <ul class="nav__lista"> 
-            <li  class="nav__item"> <a href="index.html">Volver a Inicio</a> </li>
+            <li  class="nav__item"> <a href="index.html">Volver arriba</a> </li>
             <li class="nav__item"> <a href="pages/contacto.html"> Ir a sección de Contacto</a></li>
         </ul>
         </nav>
