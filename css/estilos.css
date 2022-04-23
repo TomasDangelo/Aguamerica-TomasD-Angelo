@@ -247,7 +247,6 @@ grid-template-rows: 15% auto auto 15%;
     margin-bottom: 5rem;
     max-width: 1000px;
     width: 80%;
-
     padding: 1rem;
     
 }
@@ -297,6 +296,12 @@ transform: translate(10px) scale(1.2);
     .header__open{
         display: none;
     }
+
+    .canillas{
+        max-width: 200px;
+        max-height: 300px;
+    }
+
 
 /*Inicio media 1024*/
 
