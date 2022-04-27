@@ -23,20 +23,23 @@
                 <a class="nav-link" href="contacto.html">Contacto</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Productos
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Dispensers frío-calor</a></li>
-                <li><a class="dropdown-item" href="#">Bidones de 20 litros</a></li>
-                <li><a class="dropdown-item" href="#">Bidones de 12 litros</a></li>
-                  <li><a class="dropdown-item" href="#">Vasos térmicos</a></li>
-                  <li><a class="dropdown-item" href="#">Vasos plásticos</a></li>
-                  <li><a class="dropdown-item" href="#">Dispensers plásticos</a></li>
+                    <li><a class="dropdown-item" href="productos.html">Dispensers frío-calor</a></li>
+                <li><a class="dropdown-item" href="productos.html">Bidones de 20 litros</a></li>
+                <li><a class="dropdown-item" href="productos.html">Bidones de 12 litros</a></li>
+                  <li><a class="dropdown-item" href="productos.html">Vasos térmicos</a></li>
+                  <li><a class="dropdown-item" href="productos.html">Vasos plásticos</a></li>
+                  <li><a class="dropdown-item" href="productos.html">Dispensers plásticos</a></li>
                 </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="reclamos.html">Reclamos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ejemplo1.html">Solicitar servicio</a>
               </li>
             </ul>
             <form class="d-flex">
@@ -47,7 +50,24 @@
         </div>
       </nav>
 
-
+      <section>
+        <h1 class="display-2 text-center">Reclamos</h1>
+        <div class="mb-3">  
+            <label for="reclamos1" class="form-label">Empresa/cliente reclamante:</label>
+            <input type="text" class="form-control mb-2 form-control-lg" id="reclamos1" placeholder="Ejemplo: Arcor">
+          </div>
+          <div class="mb-3">  
+            <label for="telefono" class="form-label">Número de teléfono</label>
+            <input type="number" class="form-control mb-2 form-control-lg" id="telefono" placeholder="Ingrese su número de teléfono...">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Por favor, déjenos saber su reclamo</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escriba su reclamo aquí..." rows="3"></textarea>
+          </div>
+          <div>
+              <button type="button" class="btn btn-primary form-control">Enviar</button>
+          </div>
+    </section>
 
 
 

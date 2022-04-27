@@ -17,64 +17,35 @@
 
         <nav class="nav">
             <ul class="nav__lista"> 
-                <li class="nav__item">Menú principal</li>
                 <li  class="nav__item"> <a href="../index.html">Inicio</a> </li>
                 <li class="nav__item"> <a href="contacto.html">Contacto</a></li>
-                <li class="nav__item">Historia</li>
-                <li class="nav__item">Preguntas Frecuentes</li>
-                <li class="nav__item">Reclamos</li>
+                <li class="nav__item"><a href="reclamos.html">Reclamos</a></li>
+                <li class="nav__item"><a href="productos.html">Productos</a></li>
+                <li class="nav__item"><a href="ejemplo1.html">Solicitar serivicio</a></li>
             </ul>
             </nav>    <img src="../images/Aguamerica.jpg" alt="aguamerica">
           
     </header>
     
-    <div class="contenido">
+    <section>
+        <h1 class="display-2 text-center">Contacto</h1>
+        <div class="mb-3">  
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control mb-2 form-control-lg" id="exampleFormControlInput1" placeholder="email@ejemplo.com">
+          </div>
+          <div class="mb-3">  
+            <label for="telefono" class="form-label">Número de teléfono</label>
+            <input type="number" class="form-control mb-2 form-control-lg" id="telefono" placeholder="Ingrese su número de teléfono...">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escriba su comentario aquí..." rows="3"></textarea>
+          </div>
+          <div>
+              <button type="button" class="btn btn-primary form-control">Enviar</button>
+          </div>
+    </section>
 
-        <h1 class="primertitulo">Contactenos</h1>
-        <div class="seccioncontacto animated bounceInUp">
-            <div class="contact-form">
-                <h3>Por favor, ingrese sus datos</h3>
-                <form action="">
-                    <p>
-                        <label>Nombre</label>
-                        <input type="text" name="nombre">
-                    </p>
-                    <p>
-                        <label>Email</label>
-                        <input type="email" name="email">
-                    </p>
-                    <p>
-                        <label>Número de Telefono</label>
-                        <input type="tel" name="numerodetelefono">
-                    </p>
-                    <p>
-                        <label>Asunto</label>
-                        <input type="text" name="asunto">
-                    </p>
-                    <p class="block">
-                       <label>Mensaje</label> 
-                        <textarea name="mensaje" rows="3"></textarea>
-                    </p>
-                    <p class="block">
-                        <button type="submit">
-                            Enviar
-                        </button>
-                    </p>
-                </form>
-            </div>
-            <div class="contact-info">
-                <h4>Nuestras vías de contacto</h4>
-                <ul class="infoempresa">
-                    <li><i class="fas fa-map-marker-alt"></i> Darragueira 2841</li>
-                    <li><i class="fas fa-phone"></i> (341) 4545954</li>
-                    <li><i class="fas fa-envelope-open-text"></i> Aguamericarosario@hotmail.com</li>
-                </ul>
-                <p>Si desea realizar un reclamo de forma presencial, por favor utilice nuestras vías de contacto especificadas en esta sección.</p>
-                <p>Aguamerica.com</p>
-            </div>
-        </div>
-
-    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>

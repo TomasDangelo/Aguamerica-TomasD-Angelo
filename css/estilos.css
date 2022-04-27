@@ -125,8 +125,7 @@ grid-template-rows: 15% auto auto 15%;
 
 /*inicio sección contacto */
 .bodycontacto{
-    background: #181818;
-    color: #fff;
+    background: #fff;
     line-height: 1.6;
     font-family: 'Quicksand', sans-serif;
 
@@ -298,9 +297,6 @@ height: 500px;
 /*Inicio media 600*/
 
 @media screen and (max-width: 600px) {  
-    
-    
-
     #grid{
         grid-template-areas:"header" 
                             "seccion1" 
