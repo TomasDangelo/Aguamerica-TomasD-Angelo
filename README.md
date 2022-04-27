@@ -3,4 +3,3 @@
 *Este es mi repositorio remoto* 
 
 
-![imagen](Aguamerica.jpg)
