@@ -172,7 +172,9 @@ grid-template-rows: 15% auto auto 15%;
 
 }
 
-
+.footer .nav__item{
+    font-size: 10px;
+}
 .contenido {
     max-width: 1170px;
     margin-left: auto;
@@ -272,7 +274,6 @@ grid-template-rows: 15% auto auto 15%;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5rem;
     max-width: 1000px;
     width: 80%;
     padding: 1rem;
@@ -282,11 +283,12 @@ grid-template-rows: 15% auto auto 15%;
    object-fit: contain;
    width: 500px;
    height: 500px;
+margin-top: 3rem;
     animation-name: animaciones;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
     animation-delay: 1s;
-    animation-timing-function: ease;
+    animation-timing-function: ease-out;
     }
 
     @keyframes animaciones {
@@ -330,6 +332,43 @@ transform: translate(10px) scale(1.2);
         max-height: 300px;
     }
 
+    a:visited {
+color: blueviolet;
+    }
+
+
+    #seccionproductos h1{
+        color: #043783;
+    }
+
+    #headerproductos a{
+        color: #043783;
+        font-size: 20px;
+        gap: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+
+    #terceraseccion h2{
+        font-size: 40px;
+        color: #4767cf;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    #terceraseccion h3{
+        font-size: 25px;
+        text-align: center;
+    }
+    #terceraseccion h3 span {
+        color: #1456ba;
+    }
+
+    #terceraseccion h3 a{ 
+        text-decoration: none;
+    }
+
+
 
 /*Inicio media 1024*/
 
@@ -347,7 +386,66 @@ transform: translate(10px) scale(1.2);
     gap: 10px;
 }
 
-} 
+    } 
+
+#segundaseccion h1{
+transition: transform 2s;    
+}
+#segundaseccion h1:hover{
+    transform: translate(10px) scale(1.2);
+}
+
+#segundaseccion p{
+    transition: transform 2s;    
+    }
+    #segundaseccion p:hover{
+        transform: translate(10px) scale(1.2);
+    }
+
+    #segundaseccion h2{
+        transition: transform 2s;    
+        }
+        #segundaseccion h2:hover{
+            transform: translate(10px) scale(1.2);
+        }
+
+.header .nav__item {
+    transition: transform 2s;
+}
+.header .nav__item:hover {
+    transform: translate(10px) scale(1.2);
+}
+
+.footer .footer__nav__item {
+    transition: transform 2s;
+}
+
+.footer .footer__nav__item:hover{
+    transform: translate(10px) scale(1.2);
+}
+
+.primertitulo{
+    transition: transform 2s;
+}
+
+.primertitulo:hover{
+    transform: translate(10px) scale(1.2);
+}
+.contacto__header .nav__item{
+    transition: transform 2s;
+}
+.contacto__header .nav__item:hover{
+    transform: translate(10px) scale(1.2);
+}
+
+.footer .nav__item{
+    transition: transform 2s;
+}
+
+.footer .nav__item:hover{
+    transform: translate(10px) scale(1.2);
+}
+
 /*fin media 1024*/
 
 /*Inicio media 600*/
@@ -381,9 +479,7 @@ transform: translate(10px) scale(1.2);
         .contacto__header {
             height: 100px;
             width: 100%;
-            
         }
-        
         .seccioncontacto {
             display: grid;
             grid-template-columns: 2fr 1fr;
@@ -396,12 +492,12 @@ transform: translate(10px) scale(1.2);
         .contact-info p {
             text-align: left;
         }
-
-
+        .footer .nav__item{
+            font-size: larger;
+        }
+    
     }
-       
-
-/*fin media de 600*/
+/*fin media mobile first*/
 
 
 
