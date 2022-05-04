@@ -1,0 +1,136 @@
+/*Inicio media 1024*/
+
+@media screen and (max-width: 1024px) { 
+    .header{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .header img{
+        display: none;
+    }
+    .nav__lista{
+        flex-wrap: wrap;
+        font-size: medium;
+        gap: 10px;
+    }
+    
+        } 
+    
+    #segundaseccion h1{
+    transition: transform 2s;    
+    }
+    #segundaseccion h1:hover{
+        transform: translate(10px) scale(1.2);
+    }
+    
+    #segundaseccion p{
+        transition: transform 2s;    
+        }
+        #segundaseccion p:hover{
+            transform: translate(10px) scale(1.2);
+        }
+    
+        #segundaseccion h2{
+            transition: transform 2s;    
+            }
+            #segundaseccion h2:hover{
+                transform: translate(10px) scale(1.2);
+            }
+    
+    .header .nav__item {
+        transition: transform 2s;
+    }
+    .header .nav__item:hover {
+        transform: translate(10px) scale(1.2);
+    }
+    
+    .footer .footer__nav__item {
+        transition: transform 2s;
+    }
+    
+    .footer .footer__nav__item:hover{
+        transform: translate(10px) scale(1.2);
+    }
+    
+    .primertitulo{
+        transition: transform 2s;
+    }
+    
+    .primertitulo:hover{
+        transform: translate(10px) scale(1.2);
+    }
+    .contacto__header .nav__item{
+        transition: transform 2s;
+    }
+    .contacto__header .nav__item:hover{
+        transform: translate(10px) scale(1.2);
+    }
+    
+    .footer .nav__item{
+        transition: transform 2s;
+    }
+    
+    .footer .nav__item:hover{
+        transform: translate(10px) scale(1.2);
+    }
+    
+    /*fin media 1024*/
+    
+    /*Inicio media 600*/
+    
+    @media screen and (max-width: 600px) {  
+        
+        
+        .contacto__header img{
+            display: none;
+        }
+        #grid{
+            grid-template-areas:"header" 
+                                "seccion1" 
+                                "seccion2"
+                                "seccion3"
+                                "footer";
+        grid-template-columns: auto;
+        grid-template-rows: 15% auto auto auto 15%;
+        }
+    
+        #segundaseccion{
+            padding-bottom: 0;
+            padding-right: 0;
+        }
+    
+        .animacion {
+            flex-wrap: wrap;
+        }
+        .contacto__header .nav__item{
+            font-size: 12px;
+        }
+    
+    }
+    
+    /*  Media de contacto mobile first */
+        @media(min-width: 600px) {
+    
+            .contacto__header {
+                height: 100px;
+                width: 100%;
+            }
+            .seccioncontacto {
+                display: grid;
+                grid-template-columns: 2fr 1fr;
+            }
+            .seccioncontacto > * {
+                padding: 2em;
+            }
+            .contact-info h4,
+            .contact-info ul,
+            .contact-info p {
+                text-align: left;
+            }
+            .footer .nav__item{
+                font-size: larger;
+            }
+        
+        }
+    /*fin media mobile first*/

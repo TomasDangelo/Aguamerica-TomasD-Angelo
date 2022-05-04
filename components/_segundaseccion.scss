@@ -1,0 +1,33 @@
+#segundaseccion{
+    min-height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 20%;
+    padding-right: 10%;
+
+    h1{
+        font-size: 50px;
+        
+        color: $colorPrincipal;
+        text-align: center;
+        }
+        p{
+            text-align: center;
+            font-size: large;
+            padding-top: 20px;
+            }
+
+            h2{
+                font-size: 35px;
+                color: #043783;
+                text-align: center;
+                }
+                
+}
+
+
+
+

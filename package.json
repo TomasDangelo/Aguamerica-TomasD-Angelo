@@ -1,0 +1,19 @@
+{
+  "name": "aguamerica2-tomasdangelo",
+  "version": "1.0.0",
+  "description": "*Este es mi repositorio remoto*",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass styles.scss ./css/estilos.css -w --no-source-map -s compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomasDangelo/demo-n-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomasDangelo/demo-n-1/issues"
+  },
+  "homepage": "https://github.com/TomasDangelo/demo-n-1#readme"
+}

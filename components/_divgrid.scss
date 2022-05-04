@@ -1,0 +1,26 @@
+#grid{
+    height: 700px;
+    display: grid;
+    grid-template-areas:"header header" 
+                        "seccion1 seccion2" 
+                        "seccion3 seccion3"
+                        "footer footer"
+                        
+    ;
+grid-template-columns: 50% auto;
+grid-template-rows: 15% auto auto 15%;
+}
+
+
+
+#primeraseccion{
+    grid-area: seccion1;
+}
+
+#segundaseccion{
+    grid-area: seccion2;
+}
+
+#terceraseccion{
+    grid-area: seccion3;
+}
