@@ -1,3 +1,35 @@
+/* Inicio Maps */
+  $rrss: (
+    github: #1d1d1d,
+    twitter: #55acee,
+    whatsapp: #13d85b,
+    centrado: center
+  );
+
+  @each $name, $color in $rrss {
+    .#{$name} {
+      background-color: $color;
+      margin: 0 5px;
+      padding: 10px;
+      color: #fff;
+      border-radius: 20px;
+    }
+  }
+
+@mixin justificar($justifyContent) { /*inicio Mixin*/
+    justify-content: $justifyContent;
+    align-items: center;
+}
+
+
+.clasextendible{ /*Clase utilizada para los extend*/
+    text-decoration: none;
+    color: $colorPrincipal; 
+}
+
+
+
+
 /*Inicio media 1024*/
 
 @media screen and (max-width: 1024px) { 

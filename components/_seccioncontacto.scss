@@ -38,7 +38,7 @@
 }
 
 .primertitulo {
-    text-align: center;
+    text-align: map-get($rrss,centrado);
     font-size: 3em;
     color: #1456ba;
 }
@@ -105,7 +105,7 @@
     h4, 
     ul, 
     p {
-        text-align: center;
+        text-align: map-get($rrss,centrado);
         margin: 0 0 1rem 0;
     }
 }
