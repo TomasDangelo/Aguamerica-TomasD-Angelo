@@ -1,69 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aguamerica</title>
+    <meta name="description" content="Bidones de agua, dispensers frío-calor, vasos plásticos y térmicos y mucho más">
+    <title>Dispensers, bidones y más</title>
+    <link rel="icon" href="../images/Aguamerica ico.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
 
 
-<header id="headerproductos">        
+<header id="headerproductos">        <!-- Inicio Header de Bootstrap--> 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="../images/Aguamerica.jpg" alt="logo">
-            </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <div class="container-fluid"> <!-- Inicio Div Contenedor General -->
+            <a class="navbar-brand" href="#"> <img src="../images/Aguamerica.jpg" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent"> <!-- Inicio Div con contenido del header -->
+
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">Contacto</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Productos
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+                        
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="#">Dispensers frío-calor</a></li>
                         <li><a class="dropdown-item" href="#">Bidones de 20 litros</a></li>
                         <li><a class="dropdown-item" href="#">Bidones de 12 litros</a></li>
                         <li><a class="dropdown-item" href="#">Vasos térmicos</a></li>
                         <li><a class="dropdown-item" href="#">Vasos plásticos</a></li>
-                        <li><a class="dropdown-item" href="#">Dispensers plásticos</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="reclamos.html">Reclamos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="ejemplo1.html">Solicitar servicio</a>
-                    </li>
+                        <li><a class="dropdown-item" href="#">Dispensers plásticos</a></li> </ul></li>
+                    <li class="nav-item"><a class="nav-link" href="reclamos.html">Reclamos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ejemplo1.html">Solicitar servicio</a></li>
+
                 </ul>
 
-            </div>
-        </div>
+            </div> <!-- Cierre Div con contenido del header -->
+        </div> <!--  Cierre Div contenedor general -->
     </nav>
-</header>
+</header> <!-- Fin del Header con Bootstrap -->
 
    
 
 
-    <section id="seccionproductos">
-        <h1 class="display-3 text-center">Productos</h1>
+    <section id="seccionproductos"> <!-- Inicio Sección Productos con Tablas -->
+        <h1 class="display-4 text-center">Dispensers, bidones, y mucho más </h1>
         <table class="table table-primary table-hover">
-    
             <thead>
                 <tr>
-    
                   <th scope="col">Producto</th>
                   <th scope="col">Precio</th>
                 </tr>
@@ -102,21 +90,21 @@
         
         </section>
 
-        <section id="terceraseccion">
+        <section id="terceraseccion"> <!-- Inicio Sección de Imagenes animadas -->
             <div class="animacion">
-            <img class="canillas" src="../images/canillas-dispenser.jpg" alt="">
+            <img class="canillas" src="../images/canillas-dispenser.jpg" alt="canillas">
             <img class="dispenser" src="../images/dispenser-2-copia.jpg" alt="dispenser">
             <img class="vaso" src="../images/vaso-termico.jpg" alt="vaso"> 
             </div>
         </section>
         
-        <section class="rrss">
-          <a class="github" href="">Github</a>
-          <a class="twitter" href="">Twitter</a>
+        <section class="rrss"> <!-- Sección de Redes Sociales  -->
           <a class="whatsapp" href="">Whatsapp</a>
-      </section>
+          <a class="github" href="">Github</a>
+        </section>
 
-        <div class="container">
+        <div class="container"> <!-- Inicio Div+Footer con Bootstrap -->
+
             <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
               <div class="col-md-4 d-flex align-items-center">
                 <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
@@ -131,9 +119,10 @@
                 <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
               </ul>
             </footer>
-          </div>
-          
 
+        </div> <!-- Fin Div+Footer -->
+          
+<!-- Conectores de BS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>

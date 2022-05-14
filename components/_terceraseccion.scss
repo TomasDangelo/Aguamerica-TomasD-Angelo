@@ -56,13 +56,13 @@ transform: translate(10px) scale(1.2);
     h2{
         font-size: 40px;
         color: $colorPrincipal;
-        text-align: map-get($rrss,centrado);
+        text-align: map-get($contacto,centrado);
         padding-bottom: 10px;
     }
 
     h3{
         font-size: 25px;
-        text-align: map-get($rrss,centrado);
+        text-align: map-get($contacto,centrado);
     }
     h3 span {
         color: #1456ba;

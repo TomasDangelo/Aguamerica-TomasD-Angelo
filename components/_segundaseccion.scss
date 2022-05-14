@@ -11,10 +11,10 @@
     h1{
         font-size: 50px;
         color: $colorPrincipal;
-        text-align: map-get($rrss, centrado);
+        text-align: map-get($contacto, centrado);
         }
         p{
-            text-align: map-get($rrss, centrado);
+            text-align: map-get($contacto, centrado);
             font-size: large;
             padding-top: 20px;
             }
@@ -22,7 +22,7 @@
             h2{
                 font-size: 35px;
                 color: #043783;
-                text-align: map-get($rrss,centrado);
+                text-align: map-get($contacto,centrado);
                 }
                 
 }

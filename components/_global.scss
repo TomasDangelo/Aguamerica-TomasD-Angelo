@@ -1,21 +1,3 @@
-/* Inicio Maps */
-  $rrss: (
-    github: #1d1d1d,
-    twitter: #55acee,
-    whatsapp: #13d85b,
-    centrado: center
-  );
-
-  @each $name, $color in $rrss {
-    .#{$name} {
-      background-color: $color;
-      margin: 0 5px;
-      padding: 10px;
-      color: #fff;
-      border-radius: 20px;
-    }
-  }
-
 @mixin justificar($justifyContent) { /*inicio Mixin*/
     justify-content: $justifyContent;
     align-items: center;
@@ -28,7 +10,24 @@
 }
 
 
+/* Inicio Maps */
 
+$contacto: (
+whatsapp: #13d85b,
+github: #1d1d1d,
+centrado: center
+);
+
+@each $nombre, $color in $contacto {
+.#{$nombre} {
+    background-color: $color;
+    color: #fff;
+    border-radius: 20px;
+    margin: 0 5px;
+    padding: 10px;
+    }
+
+}
 
 /*Inicio media 1024*/
 
